@@ -6,6 +6,9 @@ for(let i=1; i <= 16; i++){
     for(let j=1; j <=16; j++){
         const item = document.createElement('div')
         item.classList.add('item')
+        item.addEventListener("mouseenter", (e) => {
+            e.target.style.backgroundColor = 'violet'
+        })
         horizontal.appendChild(item)
     }
     grid.append(horizontal)
