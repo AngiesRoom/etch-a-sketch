@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.sketch-container{
+    border: 2px solid black;
+    width: 960px;
+}
+
+.horizontal-container{
+    display: flex;
+    height: 32px;
+    border-bottom: 2px solid black;
+}
+
+.item{
+    width: 32px;
+    border-right: 2px solid black;
+    flex-grow: 1;
+}
