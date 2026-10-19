@@ -6,13 +6,17 @@ body{
 }
 
 .sketch-container{
+    display: flex;;
+    flex-direction: column;
     border: 2px solid black;
-    width: 960px;
+    width: 500px;
+    height: 500px;
+   
 }
 
 .horizontal-container{
     display: flex;
-    height: 32px;
+    flex-grow: 1;
     border-bottom: 2px solid black;
 }
 
@@ -21,3 +25,4 @@ body{
     border-right: 2px solid black;
     flex-grow: 1;
 }
+
